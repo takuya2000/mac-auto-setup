@@ -35,7 +35,7 @@ if ! command_exists fish ; then
   brew install fish
   which fish
   echo $pass | sudo -S -- sh -c 'echo '/usr/local/bin/fish' >> /etc/shells'
-  chsh -s /usr/local/bin/fish
+  echo $pass | sudo -S -- sh -c 'chsh -s /usr/local/bin/fish'
   echo " ------------ END ------------"
 fi
 
@@ -111,21 +111,21 @@ fi
 #
 # TeX settings
 #
-if ! command_exists tex ; then
-  echo " ------------ TeX ------------"
-  brew cask install mactex
-  # Tex Live Utility > preference > path -> /Library/TeX/texbin
-  version=$(tex -version | grep -oE '2[0-9]{3}' | head -1)
-  echo $pass | sudo -S /usr/local/texlive/$version/bin/x86_64-darwin/tlmgr path add
-  echo $pass | sudo -S tlmgr update --self --all
-  # JPN Lang settings
-  cd /usr/local/texlive/$version/texmf-dist/scripts/cjk-gs-integrate
-  echo $pass | sudo -S perl cjk-gs-integrate.pl --link-texmf --force
-  echo $pass | sudo -S mktexlsr
-  echo $pass | sudo -S kanji-config-updmap-sys hiragino-elcapitan-pron
-  # Select ==> TeXShop > Preferences > Source > pTeX (ptex2pdf)
-  echo " ------------ END ------------"
-fi
+#if ! command_exists tex ; then
+#  echo " ------------ TeX ------------"
+#  brew cask install mactex
+#  # Tex Live Utility > preference > path -> /Library/TeX/texbin
+#  version=$(tex -version | grep -oE '2[0-9]{3}' | head -1)
+#  echo $pass | sudo -S /usr/local/texlive/$version/bin/x86_64-darwin/tlmgr path add
+#  echo $pass | sudo -S tlmgr update --self --all
+#  # JPN Lang settings
+#  cd /usr/local/texlive/$version/texmf-dist/scripts/cjk-gs-integrate
+#  echo $pass | sudo -S perl cjk-gs-integrate.pl --link-texmf --force
+#  echo $pass | sudo -S mktexlsr
+#  echo $pass | sudo -S kanji-config-updmap-sys hiragino-elcapitan-pron
+#  # Select ==> TeXShop > Preferences > Source > pTeX (ptex2pdf)
+#  echo " ------------ END ------------"
+#fi
 
 #
 # Install wget
