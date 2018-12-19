@@ -20,22 +20,22 @@ read -sp "Your Password: " pass;
 #
 # Mac App Store apps install
 #
-if ! command_exists mas ; then
-  echo " ---- Mac App Store apps -----"
-  brew install mas
-  mas install 497799835  # Xcode (8.2.1)
-  echo " ------------ END ------------"
-fi
+#if ! command_exists mas ; then
+#  echo " ---- Mac App Store apps -----"
+#  brew install mas
+#  mas install 497799835  # Xcode (8.2.1)
+#  echo " ------------ END ------------"
+#fi
 
 #
-# Install zsh
+# Install fish
 #
-if ! command_exists zsh ; then
-  echo " ------------ zsh ------------"
-  brew install zsh zsh-autosuggestions zsh-completions zsh-syntax-highlighting colordiff
-  which -a zsh
-  echo $pass | sudo -S -- sh -c 'echo '/usr/local/bin/zsh' >> /etc/shells'
-  chsh -s /usr/local/bin/zsh
+if ! command_exists fish ; then
+  echo " ------------ fish ------------"
+  brew install fish
+  which fish
+  echo $pass | sudo -S -- sh -c 'echo '/usr/local/bin/fish' >> /etc/shells'
+  chsh -s /usr/local/bin/fish
   echo " ------------ END ------------"
 fi
 
@@ -140,21 +140,21 @@ fi
 #
 # CocoaPods
 #
-if ! command_exists pod ; then
-  echo " --------- CocoaPods ---------"
-  echo $pass | sudo -S gem install -n /usr/local/bin cocoapods --pre
-  pod setup
-  echo " ------------ END ------------"
-fi
+#if ! command_exists pod ; then
+#  echo " --------- CocoaPods ---------"
+#  echo $pass | sudo -S gem install -n /usr/local/bin cocoapods --pre
+#  pod setup
+#  echo " ------------ END ------------"
+#fi
 
 #
 # Carthage
 #
-if ! command_exists carthage ; then
-  echo " --------- Carthage ----------"
-  brew install carthage
-  echo " ------------ END ------------"
-fi
+#if ! command_exists carthage ; then
+#  echo " --------- Carthage ----------"
+#  brew install carthage
+#  echo " ------------ END ------------"
+#fi
 
 while true; do
   read -p 'Now install web apps? [Y/n]' Answer
@@ -172,18 +172,18 @@ while true; do
   esac
 done;
 
-while true; do
-  read -p 'Now install App Store apps? [Y/n]' Answer
-  case $Answer in
-    '' | [Yy]* )
-      $(cd $(dirname ${BASH_SOURCE:-$0}); pwd)/appstore.sh
-      break;
-      ;;
-    [Nn]* )
-      echo "Skip install"
-      break;
-      ;;
-    * )
-      echo Please answer YES or NO.
-  esac
-done;
+#while true; do
+#  read -p 'Now install App Store apps? [Y/n]' Answer
+#  case $Answer in
+#    '' | [Yy]* )
+#      $(cd $(dirname ${BASH_SOURCE:-$0}); pwd)/appstore.sh
+#      break;
+#      ;;
+#    [Nn]* )
+#      echo "Skip install"
+#      break;
+#      ;;
+#    * )
+#      echo Please answer YES or NO.
+#  esac
+#done;
