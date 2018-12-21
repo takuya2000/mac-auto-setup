@@ -14,6 +14,7 @@ EOS
 echo " ----- Install web apps ------"
 brew cask install java
 brew cask install atom
+brew cask install alfred
 #brew cask install cheatsheet
 #brew cask install cyberduck
 #brew cask install docker
