@@ -38,5 +38,5 @@ fi
 # mac-auto-setup.git
 #
 echo " ---- mac-auto-setup.git -----"
-git clone https://github.com/AkkeyLab/mac-auto-setup.git
+git clone git@github.com:takuya2000/mac-auto-setup.git
 echo " ------------ END ------------"
