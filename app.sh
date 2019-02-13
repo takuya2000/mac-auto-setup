@@ -24,8 +24,9 @@ brew cask install atom
 #brew cask install genymotion
 brew cask install google-chrome
 brew cask install iterm2
-brew install youtube-dl
-brew install mpv --with-bundle
+brew cask install postman
+# brew install youtube-dl
+# brew install mpv --with-bundle
 brew install tmux
 brew install the_silver_searcher
 brew cask install fluid
