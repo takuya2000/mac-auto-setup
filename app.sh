@@ -14,9 +14,9 @@ EOS
 echo " ----- Install web apps ------"
 brew cask install java
 brew cask install atom
-brew install mysql
-brew cask install shifty
-brew cask install chromedriver
+#brew install mysql
+#brew cask install shifty
+#brew cask install chromedriver
 
 #brew cask install cheatsheet
 #brew cask install cyberduck
@@ -28,11 +28,11 @@ brew cask install chromedriver
 #brew cask install genymotion
 brew cask install google-chrome
 brew cask install iterm2
-brew cask install postman
-# brew install youtube-dl
-# brew install mpv --with-bundle
-brew install tmux
-brew install the_silver_searcher
+#brew cask install postman
+brew install youtube-dl
+brew install mpv --with-bundle
+#brew install tmux
+#brew install the_silver_searcher
 brew cask install fluid
 brew cask install hyperswitch
 brew cask install skitch
