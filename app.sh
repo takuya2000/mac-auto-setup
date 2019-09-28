@@ -40,4 +40,4 @@ brew cask install bettertouchtool
 brew cask install karabiner-elements
 
 brew install mas
-
+mas install 539883307
