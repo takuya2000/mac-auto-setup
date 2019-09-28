@@ -38,3 +38,6 @@ brew cask install hyperswitch
 brew cask install skitch
 brew cask install bettertouchtool
 brew cask install karabiner-elements
+
+brew install mas
+
