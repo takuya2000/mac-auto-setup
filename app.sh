@@ -40,6 +40,7 @@ brew cask install bettertouchtool
 brew cask install karabiner-elements
 brew cask install flux
 brew cask install alfred
+brew cask install macmediakeyforwarder
 
 brew install mas
 mas install 539883307
