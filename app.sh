@@ -12,14 +12,15 @@ EOS
 # Install web apps.
 #
 echo " ----- Install web apps ------"
-brew cask install bettertouchtool
 brew cask install karabiner-elements
+brew cask install bettertouchtool
 brew cask install google-chrome
 brew cask install flux
 brew cask install iterm2
 
 brew install youtube-dl
-brew install mpv --with-bundle
+brew cask install mpv
+brew cask install iina
 brew cask install atom
 brew cask install hyperswitch
 brew cask install macmediakeyforwarder
