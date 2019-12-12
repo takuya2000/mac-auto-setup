@@ -45,9 +45,10 @@ brew cask install macmediakeyforwarder
 brew cask install fluid
 brew cask install skitch
 brew cask install alfred
-
+brew cask install makemkv
 
 brew install mas
 mas install 539883307
 
 brew cask install java
+brew install ffmpeg
