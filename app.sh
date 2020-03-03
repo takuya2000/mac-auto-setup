@@ -15,6 +15,8 @@ echo " ----- Install web apps ------"
 brew cask install karabiner-elements
 brew cask install bettertouchtool
 brew cask install google-chrome
+brew cask install brave-browser
+
 brew cask install flux
 brew cask install iterm2
 
@@ -42,12 +44,13 @@ brew cask install macmediakeyforwarder
 
 #brew install tmux
 #brew install the_silver_searcher
-brew cask install fluid
-brew cask install skitch
+#brew cask install fluid
+#brew cask install skitch
 brew cask install alfred
 brew cask install makemkv
+brew cask install  selfcontrol
 
-brew install mas
+#brew install mas
 mas install 539883307
 
 brew cask install java
