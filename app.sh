@@ -48,10 +48,14 @@ brew cask install macmediakeyforwarder
 #brew cask install skitch
 brew cask install alfred
 brew cask install makemkv
-brew cask install  selfcontrol
+brew cask install selfcontrol
+brew cask install zoomus
+brew cask install slack
 
-#brew install mas
+brew install mas
 mas install 539883307
+mas install 1142151959
+mas install 439654198
 
 brew cask install java
 brew install ffmpeg
