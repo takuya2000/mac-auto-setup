@@ -59,3 +59,5 @@ mas install 439654198
 brew cask install java
 brew install ffmpeg
 brew install cliclick
+brew cask install  background-music
+
