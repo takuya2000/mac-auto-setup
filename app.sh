@@ -60,4 +60,4 @@ brew cask install java
 brew install ffmpeg
 brew install cliclick
 brew cask install  background-music
-
+brew install streamlink
