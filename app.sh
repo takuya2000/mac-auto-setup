@@ -13,7 +13,7 @@ EOS
 #
 echo " ----- Install web apps ------"
 brew install --cask flux
-brew install --cask java
+# brew install --cask java
 brew install --cask karabiner-elements
 brew install --cask bettertouchtool
 brew install --cask google-chrome
@@ -26,7 +26,7 @@ brew install --cask macmediakeyforwarder
 brew install --cask alfred
 brew install --cask makemkv
 brew install --cask selfcontrol
-brew install --cask zoomus
+brew install --cask zoom
 brew install --cask slack
 brew install --cask background-music
 
