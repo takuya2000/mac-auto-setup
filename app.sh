@@ -20,15 +20,15 @@ brew install --cask google-chrome
 brew install --cask iterm2
 brew install --cask mpv
 brew install --cask iina
-brew install --cask atom
-brew install --cask hyperswitch
+#brew install --cask atom
+brew install --cask alt-tab
 brew install --cask macmediakeyforwarder
 brew install --cask alfred
 brew install --cask makemkv
 brew install --cask selfcontrol
 brew install --cask zoom
 brew install --cask slack
-brew install --cask background-music
+brew install --cask blackhole-2ch
 
 
 #brew install mysql
