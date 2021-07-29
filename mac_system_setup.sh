@@ -84,8 +84,8 @@ sudo shutdown -r now
 #
 # mac-auto-setup.git
 #
-echo " ---- mac-auto-setup.git -----"
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/takuya2000/mac-auto-setup/master/app.sh)"
+#echo " ---- mac-auto-setup.git -----"
+#sh -c "$(curl -fsSL https://raw.githubusercontent.com/takuya2000/mac-auto-setup/master/app.sh)"
 
 # git clone https://github.com/takuya2000/mac-auto-setup.git
-echo " ------------ END ------------"
+#echo " ------------ END ------------"
