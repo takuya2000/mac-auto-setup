@@ -1,4 +1,3 @@
-#!/bin/bash
 
 ## Spotlightのショートカット無効. ##
   osascript -e "
