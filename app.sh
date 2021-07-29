@@ -22,7 +22,7 @@ brew install --cask mpv
 brew install --cask iina
 #brew install --cask atom
 brew install --cask alt-tab
-brew install --cask macmediakeyforwarder
+#brew install --cask macmediakeyforwarder
 brew install --cask alfred
 brew install --cask makemkv
 brew install --cask selfcontrol
