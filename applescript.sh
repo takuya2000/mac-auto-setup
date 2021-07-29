@@ -7,4 +7,3 @@ tell application \"System Preferences\"
 	reveal anchor \"shortcutsTab\" of pane id \"com.apple.preference.keyboard\"
 end tell
 "
-
