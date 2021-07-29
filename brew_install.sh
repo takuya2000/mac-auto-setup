@@ -1,12 +1,7 @@
 #!/bin/bash
-cat << EOS
 
- AkkeyLab
-
- The elapsed time does not matter.
- Because speed is important.
-
-EOS
+# install Homebrew
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
 #
 # Install web apps.
