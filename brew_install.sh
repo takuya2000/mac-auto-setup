@@ -49,9 +49,10 @@ brew install --cask blackhole-2ch
 #brew install --cask skitch
 
 brew install mas
-mas install 539883307
-mas install 1142151959
-mas install 439654198
+mas install 539883307  # Line
+mas install 1142151959 # Just Focus
+mas install 439654198  # SimpleMind
+mas install 1292198261 # iMazing HEIC Converter
 
 brew install ffmpeg
 brew install cliclick
