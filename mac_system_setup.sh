@@ -78,7 +78,7 @@ killall cfprefsd
 killall Finder
 killall Dock
 
-echo ""-------defaultコマンド完了---------""
+echo ""-------defaultコマンド完了----再起動しますか？-----""
 sudo shutdown -r now
 
 #
