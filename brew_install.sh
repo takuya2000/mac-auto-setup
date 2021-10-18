@@ -52,4 +52,5 @@ mas install 1292198261 # iMazing HEIC Converter
 brew install ffmpeg
 brew install cliclick
 brew install streamlink
-brew install youtube-dl
+#brew install youtube-dl
+brew install yt-dlp/taps/yt-dlp
