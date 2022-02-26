@@ -9,7 +9,7 @@ echo "export BASH_SILENCE_DEPRECATION_WARNING=1" >> ~/.bash_profile
 sudo nvram SystemAudioVolume=" "
 
 # spotlight 無効化
-sudo mdutil -a -i off
+# sudo mdutil -a -i off
 
 #!/bin/bashdefaults write com.apple.screencapture type jpeg
 # 未確認のアプリケーションを実行する際のダイアログを無効にする
@@ -38,7 +38,7 @@ $ defaults write com.apple.finder ShowPathbar -bool true
 
 
 # Spotlight検索を表示を無効化
-defaults write com.apple.symbolichotkeys AppleSymbolicHotKeys -dict-add 64 "<dict><key>enabled</key><false/><key>value</key><dict><key>parameters</key><array><integer>65535</integer><integer>49</integer><integer>1048576</integer></array><key>type</key><string>standard</string></dict></dict>"
+# defaults write com.apple.symbolichotkeys AppleSymbolicHotKeys -dict-add 64 "<dict><key>enabled</key><false/><key>value</key><dict><key>parameters</key><array><integer>65535</integer><integer>49</integer><integer>1048576</integer></array><key>type</key><string>standard</string></dict></dict>"
 
 # コントロール間のフォーカス移動をキーボードで操作をONにする
 defaults write NSGlobalDomain AppleKeyboardUIMode -int 2
