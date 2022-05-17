@@ -15,16 +15,20 @@ brew install --cask google-chrome
 brew install --cask iterm2
 brew install --cask mpv
 brew install --cask iina
-#brew install --cask atom
 brew install --cask alt-tab
-#brew install --cask macmediakeyforwarder
 brew install --cask alfred
 brew install --cask makemkv
 brew install --cask selfcontrol
 brew install --cask zoom
 brew install --cask slack
-brew install --cask blackhole-2ch
-
+brew install --cask discord
+#brew install --cask blackhole-2ch
+brew install --cask visual-studio-code
+brew install --cask raycast
+brew install --cask rectangle
+brew install --cask appcleaner
+brew install --cask zoom
+brew install --cask mimestream
 
 #brew install mysql
 #brew install tmux
@@ -47,10 +51,11 @@ brew install mas
 mas install 539883307  # Line
 mas install 1142151959 # Just Focus
 mas install 439654198  # SimpleMind
-mas install 1292198261 # iMazing HEIC Converter
+#mas install 1292198261 # iMazing HEIC Converter
 
 brew install ffmpeg
 brew install cliclick
 brew install streamlink
 #brew install youtube-dl
 brew install yt-dlp/taps/yt-dlp
+brew install pyenv
