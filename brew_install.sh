@@ -29,6 +29,8 @@ brew install --cask rectangle
 brew install --cask appcleaner
 brew install --cask zoom
 brew install --cask mimestream
+brew install --cask monitorcontrol
+brew install --cask warp
 
 #brew install mysql
 #brew install tmux
@@ -47,15 +49,14 @@ brew install --cask mimestream
 #brew install --cask fluid
 #brew install --cask skitch
 
-brew install mas
-mas install 539883307  # Line
-mas install 1142151959 # Just Focus
-mas install 439654198  # SimpleMind
+#brew install mas
+#mas install 539883307  # Line
+#mas install 1142151959 # Just Focus
+#mas install 439654198  # SimpleMind
 #mas install 1292198261 # iMazing HEIC Converter
 
 brew install ffmpeg
 brew install cliclick
-brew install streamlink
-#brew install youtube-dl
+#brew install streamlink
+brew install youtube-dl
 brew install yt-dlp/taps/yt-dlp
-brew install pyenv
