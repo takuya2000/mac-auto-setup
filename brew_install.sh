@@ -12,7 +12,7 @@ brew install --cask flux
 brew install --cask karabiner-elements
 brew install --cask bettertouchtool
 brew install --cask google-chrome
-brew install --cask iterm2
+brew install --cask warp
 brew install --cask mpv
 brew install --cask iina
 brew install --cask alt-tab
@@ -30,7 +30,7 @@ brew install --cask appcleaner
 brew install --cask zoom
 brew install --cask mimestream
 brew install --cask monitorcontrol
-brew install --cask warp
+#brew install --cask iterm2
 
 #brew install mysql
 #brew install tmux
