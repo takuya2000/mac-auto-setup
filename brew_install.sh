@@ -28,8 +28,8 @@ brew install --cask raycast
 brew install --cask rectangle
 brew install --cask appcleaner
 brew install --cask zoom
-brew install --cask mimestream
 brew install --cask monitorcontrol
+brew install --cask figma
 #brew install --cask iterm2
 
 #brew install mysql
