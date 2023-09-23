@@ -13,7 +13,7 @@ brew install --cask karabiner-elements
 brew install --cask bettertouchtool
 brew install --cask google-chrome
 brew install --cask warp
-brew install --cask mpv
+#brew install --cask mpv
 brew install --cask iina
 brew install --cask alt-tab
 brew install --cask alfred
@@ -30,6 +30,7 @@ brew install --cask appcleaner
 brew install --cask zoom
 brew install --cask monitorcontrol
 brew install --cask figma
+brew install --cask obs
 #brew install --cask iterm2
 
 #brew install mysql
@@ -58,5 +59,6 @@ brew install --cask figma
 brew install ffmpeg
 brew install cliclick
 #brew install streamlink
-brew install youtube-dl
+#brew install youtube-dl
+brew install volta
 brew install yt-dlp/taps/yt-dlp
