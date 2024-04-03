@@ -13,7 +13,6 @@ brew install --cask karabiner-elements
 brew install --cask bettertouchtool
 brew install --cask google-chrome
 brew install --cask warp
-#brew install --cask mpv
 brew install --cask iina
 brew install --cask alt-tab
 brew install --cask alfred
@@ -22,16 +21,16 @@ brew install --cask selfcontrol
 brew install --cask zoom
 brew install --cask slack
 brew install --cask discord
-#brew install --cask blackhole-2ch
 brew install --cask visual-studio-code
 brew install --cask raycast
 brew install --cask rectangle
 brew install --cask appcleaner
 brew install --cask zoom
 brew install --cask monitorcontrol
-brew install --cask figma
 brew install --cask obs
-#brew install --cask iterm2
+brew install --cask signal
+brew install --cask telegram
+
 
 #brew install mysql
 #brew install tmux
@@ -42,7 +41,6 @@ brew install --cask obs
 #brew install --cask cyberduck
 #brew install --cask docker
 #brew install --cask dropbox
-#brew install --cask duet
 #brew install --cask eclipse-java
 #brew install --cask firefox
 #brew install --cask genymotion
@@ -54,11 +52,10 @@ brew install --cask obs
 #mas install 539883307  # Line
 #mas install 1142151959 # Just Focus
 #mas install 439654198  # SimpleMind
-#mas install 1292198261 # iMazing HEIC Converter
 
 brew install ffmpeg
 brew install cliclick
 #brew install streamlink
 #brew install youtube-dl
-brew install volta
+#brew install volta
 brew install yt-dlp/taps/yt-dlp
