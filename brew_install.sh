@@ -56,6 +56,6 @@ brew install --cask telegram
 brew install ffmpeg
 brew install cliclick
 #brew install streamlink
-#brew install youtube-dl
 #brew install volta
 brew install yt-dlp/taps/yt-dlp
+brew install homerow
