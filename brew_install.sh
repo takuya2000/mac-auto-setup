@@ -13,9 +13,10 @@ brew install --cask karabiner-elements
 brew install --cask bettertouchtool
 brew install --cask google-chrome
 brew install --cask warp
+brew install homerow
 brew install --cask iina
 brew install --cask alt-tab
-brew install --cask alfred
+# brew install --cask alfred
 brew install --cask makemkv
 brew install --cask selfcontrol
 brew install --cask zoom
@@ -58,4 +59,4 @@ brew install cliclick
 #brew install streamlink
 #brew install volta
 brew install yt-dlp/taps/yt-dlp
-brew install homerow
+
