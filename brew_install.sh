@@ -14,23 +14,24 @@ brew install --cask bettertouchtool
 brew install --cask google-chrome
 brew install --cask warp
 brew install homerow
+brew install --cask raycast
+brew install --cask rectangle
 brew install --cask iina
 brew install --cask alt-tab
 # brew install --cask alfred
+brew install --cask battery
 brew install --cask makemkv
 brew install --cask selfcontrol
 brew install --cask zoom
 brew install --cask slack
 brew install --cask discord
 brew install --cask visual-studio-code
-brew install --cask raycast
-brew install --cask rectangle
+brew install --cask cursor
 brew install --cask appcleaner
 brew install --cask zoom
 brew install --cask monitorcontrol
 brew install --cask obs
 brew install --cask signal
-brew install --cask telegram
 
 
 #brew install mysql
