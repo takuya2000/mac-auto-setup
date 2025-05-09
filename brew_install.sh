@@ -17,9 +17,9 @@ brew install homerow
 brew install --cask raycast
 brew install --cask rectangle
 brew install --cask iina
+brew install --cask input-source-pro
 brew install --cask alt-tab
 # brew install --cask alfred
-brew install --cask battery
 brew install --cask makemkv
 brew install --cask selfcontrol
 brew install --cask zoom
