@@ -32,6 +32,9 @@ brew install --cask zoom
 brew install --cask monitorcontrol
 brew install --cask obs
 brew install --cask signal
+brew install --cask eqmac
+brew install --cask mos
+
 
 
 #brew install mysql
