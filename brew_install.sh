@@ -29,11 +29,8 @@ brew install --cask visual-studio-code
 brew install --cask cursor
 brew install --cask appcleaner
 brew install --cask zoom
-brew install --cask monitorcontrol
-brew install --cask obs
+brew install --cask betterdisplay
 brew install --cask signal
-brew install --cask eqmac
-brew install --cask mos
 
 
 
@@ -59,7 +56,7 @@ brew install --cask mos
 #mas install 439654198  # SimpleMind
 
 brew install ffmpeg
-brew install cliclick
+# brew install cliclick
 #brew install streamlink
 #brew install volta
 brew install yt-dlp/taps/yt-dlp
